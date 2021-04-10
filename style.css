@@ -1,0 +1,129 @@
+#navbar{
+    padding:0;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    /*opacity: 0.9;*/
+    height: 20px;
+    left: 0px;
+    font-family: Arial Narrow;
+    font-size: 12px;
+    text-align: center;
+    color:rgb(47, 0, 255);
+}
+#profilePic{
+    height:300px;
+    margin-top: 150px;
+    margin-bottom: 150px;;
+}
+#myPic {
+    border-radius: 50%;
+    border: solid 1px rgb(226, 221, 221);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+#mypic div{
+    margin: 0 auto;
+}
+#tagline{
+    font-size: 12px;
+    font-family: Arial;
+    color: rgb(197, 194, 194);
+}
+#moreBtn{
+    text-decoration: none;
+    color:rgb(252, 7, 7);
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: Arial;
+}
+h2{
+    font-size: 30px;
+    font-family: Arial;
+    color: rgb(97, 86, 86);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    background-color: #EEE;
+}
+#about, #education, #skills, #contact{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(71, 70, 70);
+}
+header {
+    background-color: #FFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    height: 50px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 550px;
+    padding-right: 550px;
+}
+
+header nav h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+header nav .tabs {
+    list-style-type: none;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .tabs .tab {
+    display: block;
+}
+
+header nav .tabs .tab a[data-switcher] {
+    display: block;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: rgb(29, 100, 231);
+    background-color: white;
+    cursor: pointer;
+}
+
+header nav .tabs .tab:hover a[data-switcher] {
+    background-color:hotpink;
+}
+
+header nav .tabs .tab.is-active a[data-switcher] {
+    background-color:white;
+    font-weight: 700;
+}
+
+main {
+    padding-left: 142px;
+    padding-right: 142px;
+}
+
+.pages {
+    margin-top: 500px;
+    padding: 50px 30px;
+    border-radius: 8px;
+    background-color: #FFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pages .page {
+    display: none;
+}
+
+.pages .page.is-active {
+    display: block;
+}
