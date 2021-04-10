@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(248, 158, 233);
+}
 #navbar{
     padding:0;
     width: 100%;
@@ -51,16 +61,7 @@ h2{
     color: rgb(97, 86, 86);
     padding-left: 210px;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Fira Sans', sans-serif;
-}
 
-body {
-    background-color: #EEE;
-}
 #about, #education, #skills, #contact{
     text-align: left;
     font-size: 20px;
@@ -117,7 +118,7 @@ header nav .tabs .tab.is-active a[data-switcher] {
 
 main {
     padding-left: 450px;
-    padding-right: 350px;
+    padding-right: 390px;
 }
 
 .pages {
