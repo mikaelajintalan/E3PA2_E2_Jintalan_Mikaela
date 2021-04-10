@@ -21,7 +21,7 @@
         -->
 </head>
 <body>
-    <div id="navbar" class="container-fluid bg-light">
+    <div id="navbar" class="container-fluid bg-light" >
         <header>
             <nav>
                 <ul class="tabs">
@@ -43,7 +43,7 @@
         <div id="profilePic" class="container" style="height:500px">
             <div>
                 <img id="myPic" src="images/Mika.jpg" alt="Mika" style="width:150px; height:150px">
-                <h2>Mikaela Jintalan</h2>
+                <h2 id="myName">Mikaela Jintalan</h2>
                 <p id="tagline">
                     A beginner but determined to learn more, to practice more and to do more.
                 </p>
@@ -51,7 +51,7 @@
             </div>
         </div>
         </div>
-        <main>
+        <main style="color:hotpink">
             <section class="pages">
                 <div class="page is-active" data-page="1">
                     <h2>About me</h2>
@@ -80,12 +80,18 @@
                 </div>
                 <div class="page" data-page="4">
                     <h2>Contact</h2>
-                    <p id="contact">Email: <a href="mailto:mikaela.jintalan@gmail.com">mikaela.jintalan@gmail.com</a><br/> 
+                    <p id="contact">
+                        Email: <a href="mailto:mikaela.jintalan@gmail.com">mikaela.jintalan@gmail.com</a><br/> 
                         Address: 1773 Tunasan, Muntinlupa City<br />
                         Contact No.: N/A 
                     </p>
                 </div>
             </section>
         </main>
+        <div id="myCareer" class="container" style="height:100px">
+            <div>
+                <button type="submit"><img id="careerPic" src="images/myCareer.png"></img></button>
+            </div>
+        </div>
 </body>
 </html>
