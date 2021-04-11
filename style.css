@@ -137,13 +137,24 @@ main {
 .pages .page.is-active {
     display: block;
 }
-#careerPic{
-    border-radius: 25px;
-    border: 0;
-    width: 60px;
-    height: 60px;
-    background-size: cover;
+#myCareer{
+    height:300px;
+    margin-top: 70px;
+    margin-bottom: 150px;
+    padding-left:650px;
 }
-#myCareer div{
+#CareerPic {
+    border-radius: 50%;
+    border: 0;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    
+}
+#careerPic div{
     margin: 0 auto;
+}
+button{
+    background-color: white;    
+    border: 0;
 }
