@@ -47,7 +47,18 @@
                 <p id="tagline">
                     A beginner but determined to learn more, to practice more and to do more.
                 </p>
-                <a id="moreBtn" href="more.html" class="btn btn-secondary">Check out more</a>
+                
+                    <button id="moreBtn" class="btn btn-secondary" onclick="checkOutMore()">Check out more</button>
+                <script language="javascript" text="text/javascript">
+                    function checkOutMore() {
+                        document.write("I'm good in Coding<br>"+
+                        "I'm good in Designing, <br>" +
+                        "I'm good in Mathematics<br>"+
+                        "I'm patient in Debugging. <br>" +
+                        "I'm interested in web development and I want to develop web applications <br>" + 
+                        "that will be very essential to the institution where I belong.")
+                    }
+                </script>
             </div>
         </div>
         </div>
@@ -55,7 +66,7 @@
             <section class="pages">
                 <div class="page is-active" data-page="1">
                     <h2>About me</h2>
-                    <p id="about">
+                    <p id="about" style="text-indent: 2em">
                         I am creative and critical thinker. And I'm a hardworking programmer.<br />
                         I'm having an ability to code with a variety of programming languages. <br />
                         And I want to improve a lot in terms of my skills to be a good programmer.
@@ -81,17 +92,20 @@
                 <div class="page" data-page="4">
                     <h2>Contact</h2>
                     <p id="contact">
-                        Email: <a href="mailto:mikaela.jintalan@gmail.com">mikaela.jintalan@gmail.com</a><br/> 
+                        Email: <a href="mailto:mikaela.jintalan@gmail.com">mikaela.jintalan@gmail.com</a><br />
                         Address: 1773 Tunasan, Muntinlupa City<br />
                         Contact No.: N/A 
-                    </p>
+                    </p>                    
                 </div>
             </section>
         </main>
-        <div id="myCareer" class="container" style="height:100px">
+        <div id="myCareer" class="container" style=height:50px>
             <div>
-                <button type="submit"><img id="careerPic" src="images/myCareer.png"></img></button>
+                <button type="submit"><img id="careerPic" src="images/myCareer.png" border-radius:25px></img></button>
             </div>
         </div>
+        <script>
+        
+        </script>
 </body>
 </html>
